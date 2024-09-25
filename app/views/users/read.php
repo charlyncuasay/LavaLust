@@ -74,8 +74,8 @@
 <body style="background-color: black; color: white; border-color: white;">
 
     <div class="container my-5">
-        <h2 class="text-center">User Information</h2>
-        <a class="btn btn-primary mb-4" role="button" href="<?= site_url('user/create'); ?>">Create User</a>
+        <h2 class="text-center">Records</h2>
+        <a class="btn btn-primary mb-4" role="button" href="<?= site_url('user/create'); ?>">Create</a>
 
         <table id="userTable" class="table table-bordered table-striped table-hover rounded" style="color: white;">
             <thead>
