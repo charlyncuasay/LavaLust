@@ -13,7 +13,7 @@
         <div class="page-header">
             <h1>Create User</h1>
         </div>
-        <form action="<?= site_url('lavalust/users/create'); ?>" method="post">
+        <form action="<?= site_url('user/create'); ?>" method="post">
             <table class='table table-hover table-responsive table-bordered'>
                 <tr>
                     <td>Last Name</td>
@@ -46,7 +46,7 @@
                     <td></td>
                     <td>
                         <button type="submit" class="btn btn-primary">Add</button>
-                        <a href='<?= site_url('lavalust/users/read'); ?>' class='btn btn-danger'>Back to read records</a>
+                        <a href='<?= site_url('user/read'); ?>' class='btn btn-danger'>Back to read records</a>
                     </td>
                 </tr>
             </table>

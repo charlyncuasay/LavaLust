@@ -22,9 +22,9 @@ class user_control extends Controller
             $address = $this->io->post('address');
 
             if ($this->user_model->create($lastname, $firstname, $email, $gender, $address)) {
-                redirect('LavaLust/user/read');
+                redirect('user/read');
             } else {
-                redirect('LavaLust/user/read');
+                redirect('user/read');
             }
         }
 
@@ -42,9 +42,9 @@ class user_control extends Controller
             $address = $this->io->post('address');
 
             if ($this->user_model->update($lastname, $firstname, $email, $gender, $address, $id)) {
-                redirect('LavaLust/user/read');
+                redirect('user/read');
             } else {
-                redirect('LavaLust/user/read');
+                redirect('user/read');
             }
         }
         $data['user'] = $this->user_model->get1($id);
@@ -54,9 +54,9 @@ class user_control extends Controller
     public function delete($id)
     {
         if ($this->user_model->delete($id)) {
-            redirect('LavaLust/user/read');
+            redirect('user/read');
         } else {
-            redirect('LavaLust/user/read');
+            redirect('user/read');
         }
     }
 }

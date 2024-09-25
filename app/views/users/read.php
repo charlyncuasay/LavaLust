@@ -75,7 +75,7 @@
 
     <div class="container my-5">
         <h2 class="text-center">User Information</h2>
-        <a class="btn btn-primary mb-4" role="button" href="<?= site_url('lavalust/users/create'); ?>">Create User</a>
+        <a class="btn btn-primary mb-4" role="button" href="<?= site_url('user/create'); ?>">Create User</a>
 
         <table id="userTable" class="table table-bordered table-striped table-hover rounded" style="color: white;">
             <thead>
@@ -99,8 +99,8 @@
                         <td><?= $u['cgc_gender'] ?></td>
                         <td><?= $u['cgc_address'] ?></td>
                         <td>
-                            <a href="<?= site_url('lavalust/users/update/' . $u['id']); ?>" class="btn btn-success btn-sm">Update</a>
-                            <a href="<?= site_url('lavalust/users/delete/' . $u['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
+                            <a href="<?= site_url('user/update/' . $u['id']); ?>" class="btn btn-success btn-sm">Update</a>
+                            <a href="<?= site_url('user/delete/' . $u['id']); ?>" class="btn btn-danger btn-sm">Delete</a>
                         </td>
                     </tr>
                 <?php endforeach; ?>
