@@ -71,8 +71,10 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 | Prototype:
 |
 |	$autoload['libraries'] = array('database', 'email', 'session');
+
+ibig sabihin nyan nag oauto load ang database di need tawagin nang tawagin ng paulit ulit
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -82,7 +84,7 @@ $autoload['libraries'] = array();
 |
 |	$autoload['helpers'] = array('url', 'file');
 */
-$autoload['helpers'] = array();
+$autoload['helpers'] = array('url');
 
 /*
 | -------------------------------------------------------------------
@@ -92,7 +94,7 @@ $autoload['helpers'] = array();
 |
 |	$autoload['models'] = array('model1_model', 'model2_model')
 */
-$autoload['models'] = array();
+$autoload['models'] = array('user_model');
 
 /*
 | -------------------------------------------------------------------
