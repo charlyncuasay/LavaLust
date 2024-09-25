@@ -9,31 +9,27 @@
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
     <style>
-        /* Styling for table headers */
+
         thead th {
             background-color: black;
             color: white;
             text-align: center;
         }
         
-        /* Removing hover effects for table rows */
         tbody tr {
             background-color: white;
             color: black;
         }
 
-        /* Adding custom borders for table cells */
         table.table {
             border: 2px solid white;
         }
 
-        /* Centering table content */
         td, th {
             text-align: center;
             vertical-align: middle;
         }
 
-        /* Styling for buttons */
         .btn-warning {
             background-color: #ffc107;
             color: black;
@@ -45,33 +41,33 @@
             border: none;
         }
 
-/* Custom styling for DataTables controls */
+
 .dataTables_wrapper .dataTables_filter label,
 .dataTables_wrapper .dataTables_length label,
 .dataTables_wrapper .dataTables_info,
 .dataTables_wrapper .dataTables_paginate {
-    color: white; /* Change text color to white */
+    color: white; 
 }
 
-/* Style the search input field */
+
 .dataTables_wrapper .dataTables_filter input {
-    color: white; /* Text color */
-    background-color: black; /* Background color */
-    border: 1px solid white; /* Border color */
+    color: white; 
+    background-color: black; 
+    border: 1px solid white; 
 }
 
-/* Style the pagination buttons */
+
 .dataTables_wrapper .dataTables_paginate .paginate_button {
-    color: white !important; /* Make pagination buttons white */
+    color: white !important; 
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
-    color: #6c757d !important; /* Lighter color for disabled pagination buttons */
+    color: #6c757d !important; 
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-    background-color: #007bff; /* Change background color on hover */
-    color: white !important; /* Keep text white */
+    background-color: #007bff; 
+    color: white !important; 
 }
     </style>
 </head>
